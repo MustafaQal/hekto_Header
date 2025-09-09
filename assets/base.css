@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+:root{
+    --primary-color:#FB2E86;
+    --mainfont:"Lato", sans-serif;
+    --primary-color-g:#08D15F;
+
+}
+
+.mainbtn{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 2px;
+
+}
+.btn-pink{
+    background-color: var(--primary-color);
+}
+.btn-green{
+    background-color: var(--primary-color-g);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: calc(100% - 320px);
+    margin: auto;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: calc(100% - 40px);
+    }
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.margin-30{
+    margin: 30px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-column{
+    flex-direction: column;
+}
+
+.gap-5{
+    gap: 5px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.gap-25{
+    gap: 25px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+.gap-50{
+    gap: 50px;
+}
