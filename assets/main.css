@@ -48,4 +48,22 @@ body{
     outline: none;
     background-color: var(--primary-color);
     padding: 8px 13px;
+
 }
+
+}
+
+.text-white{
+    color: white;
+}
+
+/* Start Footer Section */
+.footer{
+    background-color: #EEEFFB;
+}
+
+.footer .right{
+    width: 60%;
+}
+/* End Footer Section */
+
