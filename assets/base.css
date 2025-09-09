@@ -41,6 +41,7 @@ ul{
     align-items: center;
 }
 
+
 .container {
     width: calc(100% - 320px);
     margin: auto;
@@ -64,6 +65,11 @@ ul{
     }
 }
 
+.container{
+    width:calc(100% - 320px);
+    margin: auto;
+}
+
 .row2{
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +79,12 @@ ul{
 
 .margin-30{
     margin: 30px;
+}
+
+
+.container{
+    width:calc(100% - 320px);
+    margin: auto;
 }
 
 .d-flex{
